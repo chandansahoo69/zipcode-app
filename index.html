@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.css"
+        integrity="sha512-6eqPOYQmUqGh2hFSAKha1dbQlMq1OaxityCVG80dkvGmmLdsAdrAUkgBKDV4fpAT/xOUdkB6uupudSbCwyoJPQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Location Finder</title>
+</head>
+
+<body>
+
+    <section class="hero hero-body is-dark container">
+        <h1 class="title">India Location Info</h1>
+        <h2 class="subtitle">Enter the City Name to get the location info</h2>
+        <form id="zipForm">
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input zip is-large" type="text" placeholder="Enter Zipcode">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-map-pin"></i>
+                    </span>
+                    <span class="icon is-small is-right icon-check">
+                        <i class="fas fa-check"></i>
+                    </span>
+                    <span class="icon is-small is-right icon-remove">
+                        <i class="fas fa-remove"></i>
+                    </span>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <br>
+    <div class="container">
+        <div id="output"></div>
+    </div>
+
+
+    <!-- javascript -->
+    <script src="main1.js"></script>
+</body>
+
+</html>
